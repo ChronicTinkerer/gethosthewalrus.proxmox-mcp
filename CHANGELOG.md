@@ -2,6 +2,15 @@
 
 <!-- version list -->
 
+## v1.4.4 (2026-10-19)
+
+### Bug Fixes
+
+- **client**: Forward API params named path without collision (#46)
+  ([#47](https://github.com/GethosTheWalrus/proxmox-mcp/pull/47),
+  [`e286740`](https://github.com/GethosTheWalrus/proxmox-mcp/commit/e2867407be38b6356feeac823beaa681a5803b7d))
+
+
 ## v1.4.3 (2026-10-19)
 
 ### Bug Fixes
