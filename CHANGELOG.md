@@ -2,6 +2,37 @@
 
 <!-- version list -->
 
+## v1.4.3 (2026-10-19)
+
+### Bug Fixes
+
+- **qemu**: Split guest agent commands into argv (#45)
+  ([#48](https://github.com/GethosTheWalrus/proxmox-mcp/pull/48),
+  [`0aebc6a`](https://github.com/GethosTheWalrus/proxmox-mcp/commit/0aebc6a2439b2a0d9229762a7692d85b8da6f2ba))
+
+### Build System
+
+- **deps**: Bump google/osv-scanner-action/.github/workflows/osv-scanner-reusable-pr.yml
+  ([#43](https://github.com/GethosTheWalrus/proxmox-mcp/pull/43),
+  [`d22976b`](https://github.com/GethosTheWalrus/proxmox-mcp/commit/d22976b478c5476367033b16b092a126095770fd))
+
+- **deps**: Bump google/osv-scanner-action/.github/workflows/osv-scanner-reusable.yml
+  ([#44](https://github.com/GethosTheWalrus/proxmox-mcp/pull/44),
+  [`78aafd7`](https://github.com/GethosTheWalrus/proxmox-mcp/commit/78aafd7ff04e2dffacdf419e2e33826575d17a3c))
+
+### Continuous Integration
+
+- Prevent duplicate release publishing
+  ([#40](https://github.com/GethosTheWalrus/proxmox-mcp/pull/40),
+  [`14110f4`](https://github.com/GethosTheWalrus/proxmox-mcp/commit/14110f4e9a92493959124e328c098a4fed81145c))
+
+- Update release token action ([#41](https://github.com/GethosTheWalrus/proxmox-mcp/pull/41),
+  [`6bc5453`](https://github.com/GethosTheWalrus/proxmox-mcp/commit/6bc5453be1b551e5924282b27f2f6d112f298ae1))
+
+- Use release app client ID ([#42](https://github.com/GethosTheWalrus/proxmox-mcp/pull/42),
+  [`0137b6c`](https://github.com/GethosTheWalrus/proxmox-mcp/commit/0137b6c6e201bae1fe7363c7890ee106379a78ec))
+
+
 ## v1.4.2 (2026-09-13)
 
 ### Bug Fixes
